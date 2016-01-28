@@ -27,6 +27,9 @@ Thanks to that we don't have to use IoC - the only dependency is some kind of co
 That way the whole system is more scalable (not dependent on the implementation of the bus also!) and resilent.  
 E.g. in case of non-existent handler system should work - if service is not available in IoC we'd meet NullPointerException.
 
+## Tests
+Example of master-slave cooperation in a given model is provided. Using command line parameters some execution params can be changed - fell free to test it! I've done some performance tests - using asynchronous bus (and therefor parallel execution) and ~8 slave workers the execution times were up to ~2x lower than with synchronous execution.
+
 And just like in case of previous experiment ([my try to implement real OOP system in C#](https://github.com/lemmit/RealOOP)) 
 the system I've created looks more and more like an actor system. 
 Final way of implementing classes looks almost exacly the same like TypedActor in Akka.Net!  
