@@ -1,5 +1,7 @@
 # "Message Based Dependencies"
 Message Based Dependencies project is another try to create a strongly typed, DI free object system.  
+It can be seen as second part of an experiment, how C# type system works and how we can implement it non-casual ways of dependency resolving/injection.
+  
 The idea is to allow classes to specify their dependencies explicit, without using constructor injection.  
 So to use:  
 ```
