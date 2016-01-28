@@ -30,4 +30,4 @@ E.g. in case of non-existent handler system should work - if service is not avai
 And just like in case of previous experiment ([my try to implement real OOP system in C#](https://github.com/lemmit/RealOOP)) 
 the system I've created looks more and more like an actor system. 
 Final way of implementing classes looks almost exacly the same like TypedActor in Akka.Net!  
-I'll end just with simple tought that Actors are the new OOP :)
+I'll end with just a simple tought that Actors are the new OOP :)
